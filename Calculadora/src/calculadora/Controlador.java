@@ -32,7 +32,7 @@ public class Controlador implements ActionListener {
 			op = new Operaciones(this.mivista.getPantalla().getText(),this.mivista.getBotones2(0).getText().charAt(0));
 		}
 		else if(e.getSource()==this.mivista.getBotones1(11)) {
-			this.mivista.getPantalla().setText(op.Suma(this.mivista.getPantalla().getText())+"");
+			//this.mivista.getPantalla().setText(op.Suma(this.mivista.getPantalla().getText())+"");
 		}
 		else {
 			this.mivista.getPantalla().setText(this.mivista.getPantalla().getText()+this.mivista.getBotones1Text(e.getSource()));
